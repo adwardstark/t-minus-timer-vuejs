@@ -1,0 +1,13 @@
+.bg-conic {
+  background: conic-gradient(
+    transparent 0deg,
+    transparent var(--degrees),
+    orange var(--degrees),
+    orange 360deg
+  );
+}
+
+.hand {
+  transform-origin: bottom center;
+  transform: rotate(var(--degrees));
+}
